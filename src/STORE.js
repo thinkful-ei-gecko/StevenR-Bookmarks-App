@@ -15,7 +15,7 @@ const STORE = (function(){
   
   return {
     list: [],
-    error: null,
+    error: '',
     filtered: 'ALL',
 
     addBookmark,
