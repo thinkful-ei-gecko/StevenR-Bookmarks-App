@@ -46,8 +46,9 @@ text-shadow: 1px 1px #0000002d,
 }
 
 h3 {
-    margin: 4px 0px 4px 0px;
+    margin: 3px 3px 3px 3px;
     padding: 0px;
+    
 }
 
 /* main {
@@ -73,12 +74,13 @@ form {
     margin-right: 0px;
 }
 
-form.js-form.create-bookmark-form {
+/* form.js-form.create-bookmark-form {
     margin: 0px;
     display: inline-block;
-max-width: 60%;
+max-width: 40%;
 width: 100%;
-}
+border-radius: 4px;
+} */
 
 form.create-bookmark-form {
 display: inline-block;
@@ -92,7 +94,7 @@ margin: 0px 0px 0px 0px;
 background: rgba(255, 255, 255, 0.699);
 border: 2px solid black;
 border-color: #000000;
-border-radius: 3px; 
+border-radius: 10px; 
 box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 4px 16px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -124,7 +126,8 @@ textarea {
     border: 1px solid #ccc;
     box-shadow: 1px 1px 1px #999;
     margin: 0px;
-    width: 202px;
+    max-width: inherit;
+    width: 400px;
     height: 108px;
     padding-bottom: 10px;
 }
