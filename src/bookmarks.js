@@ -56,13 +56,11 @@ const Bookmarks = (function() {
     $('.main-container').prepend(`
     <form class="create-bookmark-form" id="js-form">
       <label for="title"><h3>Enter Bookmark Name:</h3></label>
-      <br>
       <input type="text" id="title" placeholder="Name..." name="title" required>
       <br>
       <label for="url"><h3>Website URL:</h3></label>
-      <br>
+     
       <input type="text" id="url" placeholder="https://" name="url" required>
-      <br>
       <fieldset class="multi-choice">
       <h3>Rating:</h3>
         <label for="rating1"><label>
@@ -76,9 +74,8 @@ const Bookmarks = (function() {
         <label for="rating5"><label>
         <input type="radio" id="rating5" name="rating" value="5">5 Stars</input>
       </fieldset>
-      <br>
+    
       <label for="description"><h3>Description</h3></label>
-      <br>
       <textarea id="description" name="desc" form="js-form" placeholder="Description..."></textarea>
       <br>
       <input class="submit" type="submit" value="Submit">
