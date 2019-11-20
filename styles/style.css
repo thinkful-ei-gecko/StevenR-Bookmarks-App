@@ -16,20 +16,17 @@ body {
     background-repeat: no-repeat;
 }
 
-/* main {
+main {
     align-content: center;
     text-align: center;
-} */
+}
 
 header {
 margin-bottom: 5px;
 padding-bottom: 20px;
+align-content: center;
+align-items: center;
 }
-
-/* section.mainpage-buttons {
-    display: inline-block;
-    align-content: center;
-} */
 
 h1 {
 width: 100%;
@@ -62,7 +59,7 @@ section.main-container {
     text-align: center;
 }
 section.mainpage-buttons {
-    display: inline-block;
+    
     align-content: center;
     text-align: center;
     margin-bottom: 10px;
