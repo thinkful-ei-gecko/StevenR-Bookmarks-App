@@ -7,4 +7,4 @@ $(document).ready(function() {
         BmItems.forEach((item) => STORE.addBookmark(item));
         Bookmarks.renderList();
       });
-  });
+  }); 

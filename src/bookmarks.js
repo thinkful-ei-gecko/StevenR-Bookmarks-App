@@ -130,7 +130,7 @@ const Bookmarks = (function() {
       api.deleteBookmark(id).then(() => {
         STORE.findAndDelete(id);
         renderList();
-      })
+      }) 
         .catch((err) => {
       
           STORE.setError(error);

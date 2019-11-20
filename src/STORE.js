@@ -15,12 +15,12 @@ const STORE = (function(){
   
   return {
     list: [],
-    error: '',
+    error: null,
     filtered: 'ALL',
 
     addBookmark,
     findAndDelete,
-    setError,
+    setError, 
   };
   
 }());
