@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.css">
+    <link href="https://fonts.googleapis.com/css?family=Teko&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+</head>
+<body>
+    <header class="header-title">
+        <h1>Bookmarks App</h1>
+    </header>
+    <section class="mainpage-buttons" id="mainpage-buttons"> 
+        <button id="add-bookmark" aria-live>Add Bookmark</button>
+        <select id="mainpage-filter">
+            <option value="-1">Filter</option>
+            <option value="1">One Star</option>
+            <option value="2">Two Stars</option>
+            <option value="3">Three Stars</option>
+            <option value="4">Four Stars</option>
+            <option value="5">Five Stars</option>
+        </select>
+    </section>
+</header>
+
+<main>
+    <div id="main-view"></div>
+        <div id="add-bookmark"></div>
+    <section class="main-container">
+        <ul class="js-Bookmarks-List" aria-live="polite"></ul>
+    </section>
+</main>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="src/Bookmarks.js"></script>
+<script src="src/STORE.js"></script>
+<script src="src/api.js"></script>
+<script src="src/index.js"></script>
+</body>
+</html>

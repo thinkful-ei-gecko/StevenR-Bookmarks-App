@@ -1,0 +1,136 @@
+html {
+    font-family: 'Teko', sans-serif;
+}
+
+body {
+    background-color: rgb(223, 219, 208);
+    width: 100%;
+    height: 100%;
+    margin-top: 0px;
+}
+
+
+header {
+margin-bottom: 5px;
+padding-bottom: 20px;
+}
+
+h1 {
+width: 100%;
+text-align: center;
+justify-content: center;
+align-content: center;
+font: bold 52px;
+padding-bottom: 5px;
+margin: 25px 0px 0px 0px;
+text-shadow: 1px 1px #0000002d, 
+2px 2px #00000009, 
+3px 3px #00000010, 
+4px 4px #0000000c, 
+5px 5px #00000011, 
+6px 6px #00000017;
+}
+
+h3 {
+    margin: 4px 0px 4px 0px;
+    padding: 0px;
+}
+
+main {
+    position: center;
+    text-align: center;
+}
+
+section.mainpage-buttons {
+    align-content: center;
+    text-align: center;
+    margin-bottom: 10px;;
+}
+
+fieldset.multichoice {
+    padding-top: 4px;
+}
+
+form.create-bookmark-form {
+display: inline-block;
+width: 60%;
+text-align: center;
+padding: 10px 10px 10px 10px;
+margin-right: 0px;
+margin: 0px;
+
+
+
+background: rgba(255, 255, 255, 0.295);
+border: 2px solid black;
+border-color: #000000;
+
+border-radius: 3px; 
+box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 4px 16px 0 rgba(0, 0, 0, 0.19);
+
+/* justify-content: space-between; */
+}
+
+input.submit {
+    font: white bold;
+    background: rgba(30, 108, 211, 0.986);
+    width: 80px;
+    height: 25px;
+    border-radius: 4px;
+    border: 2px white;
+    color: white;
+    font: white bolder;
+    
+    
+    
+}
+fieldset.multi-choice {
+    display: block;
+    border-style: none;
+}
+textarea {
+    padding: 10px;
+    line-height: 1.5;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 1px #999;
+    margin: 0px;
+    width: 50%;
+    height: 87px;
+}
+
+ul {
+display: inline-block;
+   width: 50%;
+   padding-left: 0%;
+   list-style: none;
+}
+
+button.visit-url {
+    background: rgb(30, 108, 211);
+    color: white;
+    font: bolder;
+    border-radius: 4px;
+}
+
+li {
+display: inline-block;
+padding-top: 3px;
+line-height: 1.5;
+border-radius: 5px;
+border: 2px solid rgba(0, 0, 0, 0.658);
+box-shadow: 1px 1px 1px #999;
+margin: 3px 3px 3px 3px;
+padding: 5px 5px 5px 5px;
+text-align: center;
+width: 300px;
+background: rgba(255, 255, 255, 0.473);
+
+
+/* border-radius: 1em solid black;
+align-content: center; */
+
+
+
+
+}
