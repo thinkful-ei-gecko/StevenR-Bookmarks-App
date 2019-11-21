@@ -126,8 +126,8 @@ textarea {
     border: 1px solid #ccc;
     box-shadow: 1px 1px 1px #999;
     margin: 0px;
-    max-width: inherit;
-    width: 400px;
+    max-width: 400px;
+    width: 250px;
     height: 108px;
     padding-bottom: 10px;
 }
