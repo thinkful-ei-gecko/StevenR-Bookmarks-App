@@ -156,18 +156,11 @@ text-align: center;
 width: 300px;
 background: rgba(255, 255, 255, 0.473);
 
-@media and screen (max-width: 600px) {
-textarea {
-width: 100px;
-height: 100px;
 }
 
-
-}
-/* border-radius: 1em solid black;
-align-content: center; */
-
-
-
-
-}
+@media (max-width: 600px) {
+    textarea {
+      width: 100px;
+      height: 100px;
+      }  
+  }
